@@ -1,3 +1,8 @@
+const caixaPrincipal = document.querySelector(".caixa-Principal");
+const caixaPerguntas = document.queryselector(".caixa-Perguntas");
+const caixaPerguntas = document.querySelector(".caixa-Alternativas);
+const caixaResultado = document.querySelector(".caixa-resultado");
+const textoResultado = document.querySelector(".texto-resultado");
 const perguntas = [
     {
         enunciado:"O que é desmatamento?",
