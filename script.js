@@ -24,21 +24,21 @@ const perguntas = [
                     "ciclos de água e do clima, e a degradação dos solos."
                     ]
             },
-        ];
-        let atual = 0;
-        let perguntaAtual;
+];
+let atual = 0;
+let perguntaAtual;
 
-        function mostraPergunta() {
-            perguntaAtual = perguntas[atual];
-            caixaPerguntas.textContent = perguntaAtual.enunciado;
-        // mostraAlternativas ()
-        }
+function mostraPergunta() {
+     perguntaAtual = perguntas[atual];
+     caixaPerguntas.textContent = perguntaAtual.enunciado;
+     mostraAlternativas ()
+}
     
-    function mostraAlternativas(){
-        for(const alternativa of perguntaAtual.alternativas){
-            const botaoAlternativas  - document.createElement("button");
-            botaoAlternativas.textContent = alternativa;
-            caixaAlternativas.appendChild(botaoAlternativas)
-        }
-    }
-    mostraPerguntas()
+function mostraAlternativas(){
+    for(const alternativa of perguntaAtual.alternativas){
+    const botaoAlternativas  - document.createElement("button");
+    botaoAlternativas.textContent = alternativa;
+    caixaAlternativas.appendChild(botaoAlternativas)
+     }
+ }
+mostraPergunta()
